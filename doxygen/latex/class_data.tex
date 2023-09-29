@@ -1,0 +1,63 @@
+\hypertarget{class_data}{}\doxysection{Referência da Classe Data}
+\label{class_data}\index{Data@{Data}}
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_aee3a6598533a28a3f446c5f8ecb63c0f}{set\+Valor}} (string)
+\item 
+string \mbox{\hyperlink{class_data_a2d040be2799c23a0a3f745613a70bb43}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao representacao de data.
+
+Regras de formato\+:
+
+
+\begin{DoxyItemize}
+\item Fomato DD/\+MM/\+AAAA DD entre 01 e 31. MM entre 01 e 12. AAAA entre 2000 e 9999. Obs\+:\mbox{\hyperlink{class_data}{Data}} considera a ocorrencia de anos bissextos. 
+\end{DoxyItemize}
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{class_data_a2d040be2799c23a0a3f745613a70bb43}\label{class_data_a2d040be2799c23a0a3f745613a70bb43}} 
+\index{Data@{Data}!getValor@{getValor}}
+\index{getValor@{getValor}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Data\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna data em formato de string.
+
+\begin{DoxyReturn}{Retorna}
+\mbox{\hyperlink{class_data}{Data}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_aee3a6598533a28a3f446c5f8ecb63c0f}\label{class_data_aee3a6598533a28a3f446c5f8ecb63c0f}} 
+\index{Data@{Data}!setValor@{setValor}}
+\index{setValor@{setValor}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Data\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena string caso seja valida.
+
+Lanca excec�o caso valor seja invalido.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & \mbox{\hyperlink{class_data}{Data}}.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

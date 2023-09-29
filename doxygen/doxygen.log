@@ -1,0 +1,55 @@
+warning: The selected output language "brazilian" has not been updated
+since release 1.8.19.  As a result some sentences may appear in English.
+
+F:/programa/Trab1/dominios.h:203: warning: found </i> tag without matching <i>
+F:/programa/Trab1/entidades.h:127: warning: argument 'Cargo.' of command @param is not found in the argument list of Participante::setCargo(const Cargo &cargo)
+F:/programa/Trab1/entidades.h:133: warning: The following parameter of Participante::setCargo(const Cargo &cargo) is not documented:
+  parameter 'cargo'
+F:/programa/Trab1/entidades.h:76: warning: argument 'Email.' of command @param is not found in the argument list of Participante::setEmail(const Email &email)
+F:/programa/Trab1/entidades.h:82: warning: The following parameter of Participante::setEmail(const Email &email) is not documented:
+  parameter 'email'
+F:/programa/Trab1/entidades.h:25: warning: argument 'Matricula.' of command @param is not found in the argument list of Participante::setMatricula(const Matricula &matricula)
+F:/programa/Trab1/entidades.h:31: warning: The following parameter of Participante::setMatricula(const Matricula &matricula) is not documented:
+  parameter 'matricula'
+F:/programa/Trab1/entidades.h:42: warning: argument 'Nome.' of command @param is not found in the argument list of Participante::setNome(const Nome &nome)
+F:/programa/Trab1/entidades.h:48: warning: The following parameter of Participante::setNome(const Nome &nome) is not documented:
+  parameter 'nome'
+F:/programa/Trab1/entidades.h:110: warning: argument 'Senha.' of command @param is not found in the argument list of Participante::setSenha(const Senha &senha)
+F:/programa/Trab1/entidades.h:116: warning: The following parameter of Participante::setSenha(const Senha &senha) is not documented:
+  parameter 'senha'
+F:/programa/Trab1/entidades.h:59: warning: argument 'Sobrenome.' of command @param is not found in the argument list of Participante::setSobrenome(const Nome &sobrenome)
+F:/programa/Trab1/entidades.h:65: warning: The following parameter of Participante::setSobrenome(const Nome &sobrenome) is not documented:
+  parameter 'sobrenome'
+F:/programa/Trab1/entidades.h:93: warning: argument 'Telefone.' of command @param is not found in the argument list of Participante::setTelefone(const Telefone &telefone)
+F:/programa/Trab1/entidades.h:99: warning: The following parameter of Participante::setTelefone(const Telefone &telefone) is not documented:
+  parameter 'telefone'
+F:/programa/Trab1/entidades.h:261: warning: argument 'Classificacao.' of command @param is not found in the argument list of Peca::setClassificacao(const Classificacao &classificacao)
+F:/programa/Trab1/entidades.h:267: warning: The following parameter of Peca::setClassificacao(const Classificacao &classificacao) is not documented:
+  parameter 'classificacao'
+F:/programa/Trab1/entidades.h:212: warning: argument 'Codigo.' of command @param is not found in the argument list of Peca::setIdentificador(const Codigo &identificador)
+F:/programa/Trab1/entidades.h:218: warning: The following parameter of Peca::setIdentificador(const Codigo &identificador) is not documented:
+  parameter 'identificador'
+F:/programa/Trab1/entidades.h:228: warning: argument 'Nome.' of command @param is not found in the argument list of Peca::setNome(const Nome &nome)
+F:/programa/Trab1/entidades.h:234: warning: The following parameter of Peca::setNome(const Nome &nome) is not documented:
+  parameter 'nome'
+F:/programa/Trab1/entidades.h:245: warning: argument 'Tipo.' of command @param is not found in the argument list of Peca::setTipo(const Tipo &tipo)
+F:/programa/Trab1/entidades.h:251: warning: The following parameter of Peca::setTipo(const Tipo &tipo) is not documented:
+  parameter 'tipo'
+F:/programa/Trab1/entidades.h:438: warning: argument 'Capacidade.' of command @param is not found in the argument list of Sala::setCapacidade(const Capacidade &capacidade)
+F:/programa/Trab1/entidades.h:444: warning: The following parameter of Sala::setCapacidade(const Capacidade &capacidade) is not documented:
+  parameter 'capacidade'
+F:/programa/Trab1/entidades.h:406: warning: argument 'Identificador.' of command @param is not found in the argument list of Sala::setIdentificador(const Codigo &identificador)
+F:/programa/Trab1/entidades.h:412: warning: The following parameter of Sala::setIdentificador(const Codigo &identificador) is not documented:
+  parameter 'identificador'
+F:/programa/Trab1/entidades.h:422: warning: argument 'Nome.' of command @param is not found in the argument list of Sala::setNome(const Nome &nome)
+F:/programa/Trab1/entidades.h:428: warning: The following parameter of Sala::setNome(const Nome &nome) is not documented:
+  parameter 'nome'
+F:/programa/Trab1/entidades.h:337: warning: argument 'Data.' of command @param is not found in the argument list of Sessao::setData(const Data &data)
+F:/programa/Trab1/entidades.h:343: warning: The following parameter of Sessao::setData(const Data &data) is not documented:
+  parameter 'data'
+F:/programa/Trab1/entidades.h:354: warning: argument 'Horario.' of command @param is not found in the argument list of Sessao::setHorario(const Horario &horario)
+F:/programa/Trab1/entidades.h:360: warning: The following parameter of Sessao::setHorario(const Horario &horario) is not documented:
+  parameter 'horario'
+F:/programa/Trab1/entidades.h:321: warning: argument 'Identificador.' of command @param is not found in the argument list of Sessao::setIdentificador(const Codigo &identificador)
+F:/programa/Trab1/entidades.h:327: warning: The following parameter of Sessao::setIdentificador(const Codigo &identificador) is not documented:
+  parameter 'identificador'

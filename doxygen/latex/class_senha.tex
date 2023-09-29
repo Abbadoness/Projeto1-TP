@@ -1,0 +1,60 @@
+\hypertarget{class_senha}{}\doxysection{Referência da Classe Senha}
+\label{class_senha}\index{Senha@{Senha}}
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_senha_a379d90c214392ccb42aaf49e3d39e112}{set\+Valor}} (string)
+\item 
+string \mbox{\hyperlink{class_senha_ae0b4d9dfac80da4dc9c4965a9648e6b5}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao representacao de senha.
+
+Regras de formato\+:
+
+-\/Formato XXXXXXXX Cada caractere X eh letra (A-\/Z ou a-\/z),digito (0-\/9) ou caractere especial. Sao possiveis caracteres especiais !\textquotesingle{}@\textquotesingle{}\#\$\%\&? Nao existe caracter repetido. Existe pelo menos uma letra (maiuscula ou minuscula), um digito e um caractere especial. 
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{class_senha_ae0b4d9dfac80da4dc9c4965a9648e6b5}\label{class_senha_ae0b4d9dfac80da4dc9c4965a9648e6b5}} 
+\index{Senha@{Senha}!getValor@{getValor}}
+\index{getValor@{getValor}!Senha@{Senha}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Senha\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna senha em formato de string.
+
+\begin{DoxyReturn}{Retorna}
+\mbox{\hyperlink{class_senha}{Senha}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_senha_a379d90c214392ccb42aaf49e3d39e112}\label{class_senha_a379d90c214392ccb42aaf49e3d39e112}} 
+\index{Senha@{Senha}!setValor@{setValor}}
+\index{setValor@{setValor}!Senha@{Senha}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Senha\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena string caso seja valida.
+
+Lanca excec�o caso valor seja invalido.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & \mbox{\hyperlink{class_senha}{Senha}}.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1622665762 source:c:\users\loja\desktop\exemploscodigos\exemplo 02 - estruturas de domínio de entidade e de teste de unidade\main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"testes.h"
+
+1622665518 c:\users\loja\desktop\exemploscodigos\exemplo 02 - estruturas de domínio de entidade e de teste de unidade\dominios.h
+	<stdexcept>
+
+1622665518 c:\users\loja\desktop\exemploscodigos\exemplo 02 - estruturas de domínio de entidade e de teste de unidade\entidades.h
+	"dominios.h"
+	<string>
+
+1622665148 c:\users\loja\desktop\exemploscodigos\exemplo 02 - estruturas de domínio de entidade e de teste de unidade\testes.h
+	"dominios.h"
+	"entidades.h"
+
+1629585294 source:f:\programa\trab1\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"dominios.h"
+	"entidades.h"
+	"testes.h"
+
+1629660028 f:\programa\trab1\dominios.h
+	<stdexcept>
+	<string>
+
+1629664447 f:\programa\trab1\entidades.h
+	"dominios.h"
+	<string>
+
+1629585184 f:\programa\trab1\testes.h
+	"dominios.h"
+	"entidades.h"
+
+1629242720 source:f:\programa\trab1\entidades.cpp
+	"entidades.h"
+
+1629577245 source:f:\programa\trab1\dominios.cpp
+	"dominios.h"
+	<vector>
+	<string>
+	<iostream>
+	<stdio.h>
+
+1629585227 source:f:\programa\trab1\testes.cpp
+	"testes.h"
+	<string>
+

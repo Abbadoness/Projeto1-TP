@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trab1: Referência da Classe Email</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trab1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Busca');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="class_email-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência da Classe Email</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="dominios_8h_source.html">dominios.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a6816d28f5db9ae31cf9520011c346f3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_email.html#a6816d28f5db9ae31cf9520011c346f3f">setValor</a> (string)</td></tr>
+<tr class="separator:a6816d28f5db9ae31cf9520011c346f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573b7a1f21085bbb13cf6ec4dd802ecc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_email.html#a573b7a1f21085bbb13cf6ec4dd802ecc">getValor</a> () const</td></tr>
+<tr class="separator:a573b7a1f21085bbb13cf6ec4dd802ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Padrao representacao de email.</p>
+<p>Regras de formato:</p>
+<ul>
+<li>Formato <em>parte-local</em>&lt;i&gt;dominio <em>parte-local</em> � composta por ate 64 caracteres. <em>dominio</em> � composto por ate 255 caracteres. Caractere pode ser letra maiuscula (A-Z) ou letra minuscula(a-z). Caractere pode ser digito (0-9). Caractere pode ser !#$%&amp;'*+-/=?^_`{|}~. Caractere pode ser ponto (.) desde que nao seja o primeiro ou ultimo caractere de <em>parte-local</em> ou <em>dominio</em> e que nao ocorra em sequencia. </li>
+</ul>
+</div><h2 class="groupheader">Funções membros</h2>
+<a id="a573b7a1f21085bbb13cf6ec4dd802ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573b7a1f21085bbb13cf6ec4dd802ecc">&#9670;&nbsp;</a></span>getValor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Email::getValor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retorna email em formato de string.</p>
+<dl class="section return"><dt>Retorna</dt><dd><a class="el" href="class_email.html">Email</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a6816d28f5db9ae31cf9520011c346f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6816d28f5db9ae31cf9520011c346f3f">&#9670;&nbsp;</a></span>setValor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Email::setValor </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>valor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Armazena string caso seja valida.</p>
+<p>Lanca excec�o caso valor seja invalido.</p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">valor</td><td><a class="el" href="class_email.html">Email</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceções</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li><a class="el" href="dominios_8h_source.html">dominios.h</a></li>
+<li>dominios.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Domingo, 22 de Agosto de 2021 17:45:57 para Trab1 por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

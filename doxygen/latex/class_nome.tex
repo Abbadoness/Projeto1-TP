@@ -1,0 +1,60 @@
+\hypertarget{class_nome}{}\doxysection{Referência da Classe Nome}
+\label{class_nome}\index{Nome@{Nome}}
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_nome_aaad6a1ad8718cce8dde090a435c3cd81}{set\+Valor}} (string)
+\item 
+string \mbox{\hyperlink{class_nome_ac8881234a0e2d0ddff4fb689ceb256eb}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao representacao de nome.
+
+Regras de formato\+:
+
+De 5 a 20 caracteres. Cada caracter eh letra (A-\/Z ou a-\/z),ponto (.) ou espa�o em branco. Ponto (.) � precedido por letra. Nao ha espacos em branco em sequencia. Primeira letra de cada termo eh letra maiuscula (A-\/Z). 
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{class_nome_ac8881234a0e2d0ddff4fb689ceb256eb}\label{class_nome_ac8881234a0e2d0ddff4fb689ceb256eb}} 
+\index{Nome@{Nome}!getValor@{getValor}}
+\index{getValor@{getValor}!Nome@{Nome}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Nome\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna nome em formato de string.
+
+\begin{DoxyReturn}{Retorna}
+\mbox{\hyperlink{class_nome}{Nome}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_nome_aaad6a1ad8718cce8dde090a435c3cd81}\label{class_nome_aaad6a1ad8718cce8dde090a435c3cd81}} 
+\index{Nome@{Nome}!setValor@{setValor}}
+\index{setValor@{setValor}!Nome@{Nome}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Nome\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena string caso seja valida.
+
+Lanca excec�o caso valor seja invalido.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & \mbox{\hyperlink{class_nome}{Nome}}.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}
